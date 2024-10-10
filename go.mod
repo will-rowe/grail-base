@@ -1,6 +1,6 @@
 module github.com/grailbio/base
 
-go 1.13
+go 1.19
 
 require (
 	cloud.google.com/go v0.46.3 // indirect
@@ -11,7 +11,7 @@ require (
 	github.com/cespare/xxhash/v2 v2.1.0
 	github.com/coreos/go-oidc v2.1.0+incompatible
 	github.com/fullsailor/pkcs7 v0.0.0-20190404230743-d7302db945fa
-	github.com/go-test/deep v1.0.4
+	github.com/go-test/deep v1.0.4`
 	github.com/gobwas/glob v0.2.3
 	github.com/golang/protobuf v1.4.3
 	github.com/google/gofuzz v1.1.0
