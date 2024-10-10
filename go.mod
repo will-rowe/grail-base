@@ -10,8 +10,7 @@ require (
 	github.com/biogo/store v0.0.0-20190426020002-884f370e325d
 	github.com/cespare/xxhash/v2 v2.1.0
 	github.com/coreos/go-oidc v2.1.0+incompatible
-	github.com/fullsailor/pkcs7 v0.0.0-20190404230743-d7302db945fa
-	github.com/go-test/deep v1.0.4`
+	github.com/go-test/deep v1.0.4
 	github.com/gobwas/glob v0.2.3
 	github.com/golang/protobuf v1.4.3
 	github.com/google/gofuzz v1.1.0
@@ -47,8 +46,55 @@ require (
 	google.golang.org/api v0.10.0
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	k8s.io/api v0.0.0-20181213150558-05914d821849
-	k8s.io/apimachinery v0.0.0-20181127025237-2b1284ed4c93
+	k8s.io/apimachinery v0.0.0-20181127025237-2b1284ed4c93 // indirect
 	k8s.io/client-go v10.0.0+incompatible
 	k8s.io/klog v1.0.0 // indirect
 	sigs.k8s.io/yaml v1.2.0 // indirect
+)
+
+require (
+	github.com/google/go-cmp v0.4.0
+	github.com/grailbio/bigmachine v0.5.8
+	go.mozilla.org/pkcs7 v0.9.0
+	golang.org/x/time v0.0.0-20190921001708-c4c64cad1fd0
+)
+
+require (
+	github.com/StackExchange/wmi v0.0.0-20190523213315-cbe66965904d // indirect
+	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/gin-contrib/sse v0.1.0 // indirect
+	github.com/go-ole/go-ole v1.2.4 // indirect
+	github.com/go-playground/locales v0.13.0 // indirect
+	github.com/go-playground/universal-translator v0.17.0 // indirect
+	github.com/go-playground/validator/v10 v10.2.0 // indirect
+	github.com/golang/groupcache v0.0.0-20191002201903-404acd9df4cc // indirect
+	github.com/google/pprof v0.0.0-20190930153522-6ce02741cba3 // indirect
+	github.com/googleapis/gax-go/v2 v2.0.5 // indirect
+	github.com/gorilla/websocket v1.4.1 // indirect
+	github.com/jmespath/go-jmespath v0.4.0 // indirect
+	github.com/json-iterator/go v1.1.9 // indirect
+	github.com/klauspost/cpuid v1.2.1 // indirect
+	github.com/leodido/go-urn v1.2.0 // indirect
+	github.com/mattn/go-isatty v0.0.12 // indirect
+	github.com/modern-go/concurrent v0.0.0-20180228061459-e0a39a4cb421 // indirect
+	github.com/modern-go/reflect2 v0.0.0-20180701023420-4b7aa43c6742 // indirect
+	github.com/pborman/uuid v1.2.0 // indirect
+	github.com/pmezard/go-difflib v1.0.0 // indirect
+	github.com/pquerna/cachecontrol v0.0.0-20180517163645-1555304b9b35 // indirect
+	github.com/stretchr/objx v0.1.1 // indirect
+	github.com/ugorji/go/codec v1.1.7 // indirect
+	github.com/vanadium/go-mdns-sd v0.0.0-20181006014439-f1a1ccd1252e // indirect
+	go.uber.org/atomic v1.6.0 // indirect
+	go.uber.org/multierr v1.5.0 // indirect
+	golang.org/x/mod v0.3.0 // indirect
+	golang.org/x/text v0.3.3 // indirect
+	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
+	google.golang.org/genproto v0.0.0-20191007204434-a023cd5227bd // indirect
+	google.golang.org/grpc v1.24.0 // indirect
+	google.golang.org/protobuf v1.23.0 // indirect
+	gopkg.in/square/go-jose.v2 v2.3.1 // indirect
+	gopkg.in/yaml.v2 v2.2.8 // indirect
+	gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c // indirect
+	v.io/x/ref/internal/logger v0.1.1 // indirect
+	v.io/x/ref/lib/flags/sitedefaults v0.1.1 // indirect
 )
